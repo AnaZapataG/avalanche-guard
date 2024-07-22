@@ -1,8 +1,8 @@
 {
   "lang": "en",
-  "name": "Avalanche Guard",
-  "short_name": "Avalanche Guard",
-  "description": "",
+  "name": "AvalancheGuard",
+  "short_name": "AvalancheGuard",
+  "description": "AI-powered Avalanche Observations",
   "start_url": "/?utm_source=homescreen",
   "theme_color": "rgb(25,55,71)",
   "background_color": "#fff",

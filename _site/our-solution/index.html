@@ -1,0 +1,127 @@
+<h1 id="our-solution">Our Solution</h1>
+
+<p>We are focusing on the field observation data, complementing the weather and snowpack data that forecasters use to determine avalanche danger levels. We are solving the problems of the limited number of field observations, the quality of field observations, and the precious time spent extracting the most relevant information.</p>
+
+<h2 id="dataset">Dataset</h2>
+
+<p>Our dataset, published by Fox et al. from the University of Innsbruck in Austria, provides a robust foundation for avalanche detection research. It comprises 4,095 labeled avalanche images, categorized by type (Glide, Loose, Slab) or marked as No Avalanche. The accompanying paper, dataset, and code are available on GitHub at github.com/j-f-ox/avalanche-detection. This dataset is instrumental in training and validating our models to ensure accurate and reliable avalanche detection.</p>
+
+<h2 id="pre-processing">Pre-Processing</h2>
+
+<p>To prepare the data for analysis, we perform several pre-processing steps to enhance the quality and relevance of the data.</p>
+
+<h3 id="steps">Steps:</h3>
+<ol>
+  <li><strong>Cleaning</strong>: Remove irrelevant or incorrect data.</li>
+  <li><strong>Normalization</strong>: Standardize data formats and units.</li>
+  <li><strong>Transformation</strong>: Convert data into a usable format for our models.</li>
+</ol>
+
+<h2 id="models">Models</h2>
+
+<p>We utilize state-of-the-art models to analyze the data and predict avalanche risks. Our models are trained on extensive datasets to ensure accuracy and reliability.</p>
+
+<h3 id="models-used">Models Used:</h3>
+<ul>
+  <li><strong>Convolutional Neural Networks (CNN)</strong>: For terrain classification and avalanche detection.</li>
+  <li><strong>EfficientNetV2S</strong>: For classification tasks.</li>
+</ul>
+
+<h1 id="model-architecture">Model Architecture</h1>
+
+<h2 id="overview">Overview</h2>
+
+<p>Our solution involves a multi-stage pipeline with four models, each designed for specific tasks in the process of avalanche detection and classification.</p>
+
+<h2 id="model-1-binary-classification---snowy-mountains">Model 1: Binary Classification - Snowy Mountains</h2>
+<p>The first model identifies if the uploaded image is that of a snowy mountain or not.</p>
+
+<h3 id="objective">Objective</h3>
+<ul>
+  <li>Identify if the uploaded image is that of a snowy mountain.</li>
+</ul>
+
+<h3 id="purpose">Purpose</h3>
+<ul>
+  <li>Prevent junk or unwanted images from being uploaded to our application by the public.</li>
+  <li>Delete the uploaded image if it is not detected as a snowy mountain image.</li>
+</ul>
+
+<h3 id="results">Results</h3>
+<ul>
+  <li><strong>Accepted Images</strong>: Snowy mountain images are accepted.</li>
+  <li><strong>Rejected Images</strong>: Images of non-mountain terrains, people, sunsets, and other irrelevant content are rejected.</li>
+</ul>
+
+<h2 id="model-2-binary-classification---avalanche-presence">Model 2: Binary Classification - Avalanche Presence</h2>
+<p>The second model checks if there is an avalanche present in the snowy mountain images.</p>
+
+<h3 id="objective-1">Objective</h3>
+<ul>
+  <li>Determine the presence of an avalanche in the snowy mountain images.</li>
+</ul>
+
+<h3 id="purpose-1">Purpose</h3>
+<ul>
+  <li>Identify images that have avalanches to proceed to the next stage of analysis.</li>
+</ul>
+
+<h3 id="results-1">Results</h3>
+<ul>
+  <li><strong>Accepted Images</strong>: Images with visible avalanches are accepted.</li>
+  <li><strong>Rejected Images</strong>: Images without avalanches are rejected.</li>
+</ul>
+
+<h2 id="model-3-multi-class-classification---avalanche-type">Model 3: Multi-class Classification - Avalanche Type</h2>
+<p>The final model classifies the type of avalanche present in the segmented image.</p>
+
+<h3 id="objective-2">Objective</h3>
+<ul>
+  <li>Classify the type of avalanche as Glide, Loose, or Slab.</li>
+</ul>
+
+<h3 id="purpose-2">Purpose</h3>
+<ul>
+  <li>Provide detailed information about the type of avalanche to improve prediction and response measures.</li>
+</ul>
+
+<h3 id="types-of-avalanches">Types of Avalanches</h3>
+<ul>
+  <li><strong>Glide</strong>: Slow-moving slides along the ground, often characterized by a visible glide crack.</li>
+  <li><strong>Loose</strong>: Areas where loose, unconsolidated snow is sliding down the slope, typically starting at a point and fanning out.</li>
+  <li><strong>Slab</strong>: Large, cohesive slabs of snow that have broken away, seen as a distinct, clean break in the snowpack.</li>
+</ul>
+
+<h2 id="visual-representation">Visual Representation</h2>
+
+<h2 id="evaluation">Evaluation</h2>
+
+<p>We rigorously evaluate our models to ensure they provide accurate and reliable predictions. We use various metrics to measure performance and identify areas for improvement.</p>
+
+<h3 id="evaluation-metrics">Evaluation Metrics:</h3>
+<ul>
+  <li><strong>Accuracy</strong>: Proportion of correct predictions.</li>
+  <li><strong>Precision</strong>: Correct positive predictions.</li>
+  <li><strong>Recall</strong>: Ability to detect all positive cases.</li>
+  <li><strong>F1 Score</strong>: Balance between precision and recall.</li>
+</ul>
+
+<h2 id="what-we-learned">What We Learned</h2>
+
+<p>Snow is hard!</p>
+
+<h2 id="contributions">Contributions</h2>
+
+<p>Our work contributes to the field of Avalanche forecasting….</p>
+
+<h2 id="future-work">Future Work</h2>
+
+<p>We plan to enhance our solution by incorporating additional data sources, improving model accuracy, and expanding the geographical areas covered.</p>
+
+<h3 id="future-enhancements">Future Enhancements:</h3>
+
+<h2 id="thanks-and-acknowledgements">Thanks and Acknowledgements</h2>
+
+<p>We extend our gratitude to everyone who supported this project, including our mentors, collaborators, and the community.</p>
+
+<h3 id="special-thanks">Special Thanks:</h3>
