@@ -14,22 +14,22 @@ Our app leverages advanced AI to provide accurate avalanche forecasts. Here's a 
 
 <div class="grid-container">
     <div class="grid-item">
-        <img src="path-to-collect-data-icon.svg" class="icon" alt="Collect Data Icon">
+        <img src="_site/assets/img/data_15952761.png" class="icon" alt="Collect Data Icon">
         <h3>Step 1: Data Collection</h3>
         <p>Crowdsource images and data from users.</p>
     </div>
     <div class="grid-item">
-        <img src="path-to-analyze-icon.svg" class="icon" alt="Analyze Data Icon">
+        <img src="_site/assets/img/data-classification_14400033.png" class="icon" alt="Analyze Data Icon">
         <h3>Step 2: Data Analysis</h3>
         <p>Analyzes and label snow conditions and avalanches data using AI.</p>
     </div>
     <div class="grid-item">
-        <img src="path-to-predict-icon.svg" class="icon" alt="Predict Icon">
+        <img src="_site/assets/img/ridge_15887164.png" class="icon" alt="Predict Icon">
         <h3>Step 3: Predict Avalanches</h3>
         <p>Visualize avalanche summary for forecasters.</p>
     </div>
     <div class="grid-item">
-        <img src="path-to-update-icon.svg" class="icon" alt="Update Icon">
+        <img src="_site/assets/img/refresh_1265773.png" class="icon" alt="Update Icon">
         <h3>Step 4: Update Forecasts</h3>
         <p>Continuously contribute to stronger forecast.</p>
     </div>
@@ -74,42 +74,42 @@ Hey, ski enthusiast! ⛷️ Want to help us make our avalanche forecasts even mo
 
 <div class="grid-container">
     <div class="grid-item">
-        <img src="path-to-clear-shots-icon.svg" class="icon" alt="Clear Shots Icon">
+        <img src="_site/assets/img/image_3390534.png" class="icon" alt="Clear Shots Icon">
         <h3>Slope-Ready Quality</h3>
         <p>High-res, well-lit, and focused shots.</p>
     </div>
     <div class="grid-item">
-        <img src="path-to-snow-conditions-icon.svg" class="icon" alt="Snow Conditions Icon">
+        <img src="_site/assets/img/goal_1763537.png" class="icon" alt="Snow Conditions Icon">
         <h3>Stay Relevant</h3>
         <p>Capture avalanches and geotag.</p>
     </div>
     <div class="grid-item">
-        <img src="path-to-respect-privacy-icon.svg" class="icon" alt="Respect Privacy Icon">
+        <img src="_site/assets/img/trekker_3157959.png" class="icon" alt="Respect Privacy Icon">
         <h3>Ethical Ski Snaps</h3>
         <p>No identifiable people, keep it family-friendly.</p>
     </div>
     <div class="grid-item">
-        <img src="path-to-add-notes-icon.svg" class="icon" alt="Add Notes Icon">
+        <img src="_site/assets/img/explain_10748552.png" class="icon" alt="Add Notes Icon">
         <h3>Explain and Detail</h3>
         <p>Describe what you see and add metadata.</p>
     </div>
     <div class="grid-item">
-        <img src="path-to-formats-icon.svg" class="icon" alt="Formats Icon">
+        <img src="_site/assets/img/picture_14052676.png" class="icon" alt="Formats Icon">
         <h3>Tech Tips</h3>
         <p>Use JPEG, PNG, or TIFF, and keep it under 10MB.</p>
     </div>
     <div class="grid-item">
-        <img src="path-to-your-pics-your-rights-icon.svg" class="icon" alt="Your Pics, Your Rights Icon">
+        <img src="_site/assets/img/rules_13435246.png" class="icon" alt="Your Pics, Your Rights Icon">
         <h3>Follow the Rules</h3>
         <p>Upload only your photos and follow the laws.</p>
     </div>
     <div class="grid-item">
-        <img src="path-to-glide-avalanches-icon.svg" class="icon" alt="Glide Avalanches Icon">
+        <img src="_site/assets/img/avalanche_16834789.png" class="icon" alt="Glide Avalanches Icon">
         <h3>Avalanche Awareness</h3>
         <p>Identify and capture different avalanche types.</p>
     </div>
     <div class="grid-item">
-        <img src="path-to-transparency-icon.svg" class="icon" alt="Transparency Icon">
+        <img src="_site/assets/img/cpu_16430794.png" class="icon" alt="Transparency Icon">
         <h3>Cool AI Practices</h3>
         <p>We value transparency, accuracy, and fairness.</p>
     </div>
