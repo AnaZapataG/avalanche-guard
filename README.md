@@ -25,14 +25,10 @@ Our app leverages advanced AI to provide accurate avalanche forecasts. Here's a 
     </div>
     <div class="grid-item">
         <img src="https://raw.githubusercontent.com/AnaZapataG/avalanche-guard/master/assets/img/ridge_15887164.png" class="icon" alt="Predict Icon">
-        <h3>Step 3: Predict Avalanches</h3>
+        <h3>Step 3: Inform forecasts</h3>
         <p>Visualize avalanche summary for forecasters.</p>
     </div>
-    <div class="grid-item">
-        <img src="https://raw.githubusercontent.com/AnaZapataG/avalanche-guard/master/assets/img/refresh_1265773.png" class="icon" alt="Update Icon">
-        <h3>Step 4: Update Forecasts</h3>
-        <p>Continuously contribute to stronger forecast.</p>
-    </div>
+
 
 </div>
 
