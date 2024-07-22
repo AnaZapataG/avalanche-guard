@@ -2,33 +2,23 @@
 
 # AvalancheGuard
 
-A boutique Jekyll theme for hackers, nerds, and academics.  
-
-
-
+AI-powered Avalanche Observations.
+ 
+Avalanche forecasts save lives. They help people who travel, live, work, and recreate in the backcountry to make informed decisions about their activities in snowy mountain environments. 
 
 
 [![Screenshot](https://hydejack.com/assets/img/blog/hydejack-9.jpg)][welcome]
 
-Hydejack's cover page on a variety of screens.
+We are focusing on the field observation data, complementing the weather and snowpack data that forecasters use to determine avalanche danger levels. We are solving the problems of the limited number of field observations, the quality of field observations, and the precious time spent extracting the most relevant information.
 
 
-
-**Hydejack** is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress. 
-
-It includes a blog that is suitable for both prose and technical documentation, a portfolio to showcase your projects, and a resume template that looks amazing on the web and in print.
-
-> Your complete presence on the web — A [blog], [portfolio], and [resume].
-
-
-
-## A Personal Site That Won't Disappear
+## How does it work 
 
 **Hydejack** is 100% built on Open Source software, and is Open Source itself, save for parts of the PRO version. The PRO version is a one-time payment that gives you the right to use it forever.
 
 Hydejack is all static sites. _HTML_. All you need is a web server --- any web server --- to have a professional web presence that lasts a lifetime.
 
-## Download
+## 
 
 There are two versions of **Hydejack**: The *Free Version* includes basic blogging functionality and most of Hydejack's [Features], such as dynamic page loading and advanced animations.
 

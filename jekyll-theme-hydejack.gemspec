@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Florian Klampfer"]
   spec.email         = ["mail@qwtel.com"]
 
-  spec.summary       = %q{"A boutique Jekyll theme for hackers, nerds, and academics"}
+  spec.summary       = %q{"AI-powered Avalanche Observations"}
   spec.homepage      = "https://github.com/anazapatag/avalanche-guard"
   spec.metadata = {
     "bug_tracker_uri"   => "https://github.com/anazapatag/avalanche-guard/issues",

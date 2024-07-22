@@ -2,7 +2,7 @@
 
 # AvalancheGuard
 
-A boutique Jekyll theme for hackers, nerds, and academics.  
+AI-powered Avalanche Observations. 
 
 
 

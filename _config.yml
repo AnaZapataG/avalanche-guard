@@ -73,10 +73,10 @@ sass:
 menu:
   - name: "Home"
     url: /
-  - name: "About"
-    url: /about/
   - name: "Our Solution"
     url: /our-solution/
-  - name: "Use Examples"
-    url: /use-examples/
+  - name: "About"
+    url: /about/
+  - name: "Application"
+    url: https://app.avalancheguard.org
 
