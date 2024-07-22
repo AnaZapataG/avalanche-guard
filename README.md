@@ -1,19 +1,15 @@
 
 
 # AvalancheGuard
-
-AI-powered Avalanche Observations.
  
 Avalanche forecasts save lives. They help people who travel, live, work, and recreate in the backcountry to make informed decisions about their activities in snowy mountain environments. 
 
 
-[![Screenshot](https://hydejack.com/assets/img/blog/hydejack-9.jpg)][welcome]
-
 We are focusing on the field observation data, complementing the weather and snowpack data that forecasters use to determine avalanche danger levels. We are solving the problems of the limited number of field observations, the quality of field observations, and the precious time spent extracting the most relevant information.
 
 
-## How does it work 
-
+# How does it work 
+[![Screenshot](/Users/anazapata/Desktop/Capstone/avalanche-guard/assets/img/AvalancheGuard_2.svg)][welcome]
 **Hydejack** is 100% built on Open Source software, and is Open Source itself, save for parts of the PRO version. The PRO version is a one-time payment that gives you the right to use it forever.
 
 Hydejack is all static sites. _HTML_. All you need is a web server --- any web server --- to have a professional web presence that lasts a lifetime.
