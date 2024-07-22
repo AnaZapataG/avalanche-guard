@@ -1,6 +1,6 @@
 
 
-# Hydejack
+# AvalancheGuard
 
 A boutique Jekyll theme for hackers, nerds, and academics.  
 
