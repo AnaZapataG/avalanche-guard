@@ -10,17 +10,17 @@ Meet the dedicated team behind our project:
 
 <div class="team-container">
     <div class="team-member">
-        <img src="_site/assets/img/amiya.png" class="team-photo" alt="Amiya Ranjan">
+        <img src="assets/img/amiya.png" class="team-photo" alt="Amiya Ranjan">
         <h3>Amiya Ranjan</h3>
         <p>App Development</p>
     </div>
     <div class="team-member">
-        <img src="_site/assets/img/ana.png" class="team-photo" alt="Ana Zapata">
+        <img src="assets/img/ana.png" class="team-photo" alt="Ana Zapata">
         <h3>Ana Zapata</h3>
         <p>Project Manager</p>
     </div>
     <div class="team-member">
-        <img src="_site/assets/img/mandy.png" class="team-photo" alt="Mandy Korphi">
+        <img src="assets/img/mandy.png" class="team-photo" alt="Mandy Korphi">
         <h3>Mandy Korphi</h3>
         <p>Product Manager</p>
     </div>
