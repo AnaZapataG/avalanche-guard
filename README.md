@@ -16,22 +16,22 @@ Our app leverages advanced AI to provide accurate avalanche forecasts. Here's a 
     <div class="grid-item">
         <img src="path-to-collect-data-icon.svg" class="icon" alt="Collect Data Icon">
         <h3>Step 1: Data Collection</h3>
-        <p>Collects real-time data from users and weather stations.</p>
+        <p>Crowdsource images and data from users.</p>
     </div>
     <div class="grid-item">
         <img src="path-to-analyze-icon.svg" class="icon" alt="Analyze Data Icon">
         <h3>Step 2: Data Analysis</h3>
-        <p>Analyzes snow conditions, weather patterns, and historical data using AI.</p>
+        <p>Analyzes and label snow conditions and avalanches data using AI.</p>
     </div>
     <div class="grid-item">
         <img src="path-to-predict-icon.svg" class="icon" alt="Predict Icon">
         <h3>Step 3: Predict Avalanches</h3>
-        <p>Generates avalanche forecasts based on analyzed data.</p>
+        <p>Visualize avalanche summary for forecasters.</p>
     </div>
     <div class="grid-item">
         <img src="path-to-update-icon.svg" class="icon" alt="Update Icon">
         <h3>Step 4: Update Forecasts</h3>
-        <p>Continuously updates forecasts as new data is received.</p>
+        <p>Continuously contribute to stronger forecast.</p>
     </div>
 
 </div>
@@ -81,7 +81,7 @@ Hey, ski enthusiast! ⛷️ Want to help us make our avalanche forecasts even mo
     <div class="grid-item">
         <img src="path-to-snow-conditions-icon.svg" class="icon" alt="Snow Conditions Icon">
         <h3>Stay Relevant</h3>
-        <p>Capture snow quality, weather, and geotag.</p>
+        <p>Capture avalanches and geotag.</p>
     </div>
     <div class="grid-item">
         <img src="path-to-respect-privacy-icon.svg" class="icon" alt="Respect Privacy Icon">
