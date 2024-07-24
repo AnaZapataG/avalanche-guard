@@ -101,8 +101,18 @@ We plan to enhance our solution by incorporating additional data sources, improv
 ### Future Enhancements:
 
 
-## Thanks and Acknowledgements
+### Special Thanks
 
-We extend our gratitude to everyone who supported this project, including our mentors, collaborators, and the community.
+We would like to extend a special thanks to everyone who has advised us and provided feedback throughout our capstone project. In particular, interviews with backcountry experts, avalanche researchers and enthusiasts both were critical to develop our product MVP and vision. 
 
-### Special Thanks:
+David Reichel, Executive Director at the Sierra Avalanche Center, for providing guidance, extensive feedback, and data to test our models. 
+
+Richard Bothwell, former Executive Director of AIARE (American Institute of Avalanche Research and Education), and current CFO (Chief Fun Officer), Owner and Lead Guide, Avalanche Educator at Outdoor Adventure Club for providing guidance, feedback, and an introduction to avalanche safety. 
+
+Jeffrey C, forecaster, for invaluable feedback and “day-in-the-life” explanations of a forecaster’s process. 
+
+David, Arnaud, Zara, backcountry skiers & friends who shared their experiences in the backcountry, their interactions with avalanche forecasts, their barriers to submitting observations, and wishes for an awesome reporting product. 
+
+Jaeyoung Lim from the Autonomous Avalanche Detection and Mapping
+ At The Autonomous Systems Lab (ASL) at ETH Zurich and Elisabeth Hafner at the WSL Institute for Snow and Avalanche Research SLF who share invaluable insights into their  avalanche research in Switzerland. 
+

@@ -2,31 +2,34 @@
 
 # AvalancheGuard
  
-Avalanche forecasts save lives. They help people who travel, live, work, and recreate in the backcountry to make informed decisions about their activities in snowy mountain environments. 
+Avalanche forecasts save lives. They enable those who travel, live, work, or recreate in the backcountry to make informed decisions in snowy mountain environments.
 
+Forecasters rely on weather reports, snowpit data, and avalanche event observations to assess daily avalanche risk. However, forecasters and avalanche center directors agree that more reports on when, where, and what types of avalanches people see are essential. Increased reporting would lead to more accurate, localized avalanche forecasts, enhancing public safety and decision-making for backcountry travelers.
 
-We are focusing on the field observation data, complementing the weather and snowpack data that forecasters use to determine avalanche danger levels. We are solving the problems of the limited number of field observations, the quality of field observations, and the precious time spent extracting the most relevant information.
+To address this need, we've developed AvalancheGuard, an app that allows recreational skiers, riders, snowmobilers, and anyone traveling through snowy mountains to easily upload pictures of any avalanche activity they see. Our app automatically captions pictures with the avalanche type, simplifying the observation submission process for backcountry travelers. These crowd-sourced observations are summarized on our platform, providing valuable data for forecasters to analyze when developing their avalanche risk forecasts.
+
 
 
 ## How Our App Works
 
-Our app leverages advanced AI to provide accurate avalanche forecasts. Here's a step-by-step explanation of the process:
+Our app enables easy avalanche observation logging by the general public. It then uses computer vision AI models to label and summarize avalanche observations for forecasters who need them to improve their forecasts. Here’s a step-by-step explanation of the process:
 
 <div class="grid-container">
     <div class="grid-item">
         <img src="https://raw.githubusercontent.com/AnaZapataG/avalanche-guard/master/assets/img/data_15952761.png" class="icon" alt="Collect Data Icon">
         <h3>Step 1: Data Collection</h3>
-        <p>Crowdsource images and data from users.</p>
+        <p>Crowdsource pictures of avalanches from backcountry travelers (skiers, snowmobilers, etc).
+</p>
     </div>
     <div class="grid-item">
         <img src="https://raw.githubusercontent.com/AnaZapataG/avalanche-guard/master/assets/img/data-classification_14400033.png" class="icon" alt="Analyze Data Icon">
         <h3>Step 2: Data Analysis</h3>
-        <p>Analyzes and label snow conditions and avalanches data using AI.</p>
+        <p>Analyze and label avalanche pictures using AI computer vision models.</p>
     </div>
     <div class="grid-item">
         <img src="https://raw.githubusercontent.com/AnaZapataG/avalanche-guard/master/assets/img/ridge_15887164.png" class="icon" alt="Predict Icon">
         <h3>Step 3: Inform forecasts</h3>
-        <p>Visualize avalanche summary for forecasters.</p>
+        <p>Summarize avalanche observations for forecasters to consider when determining avalanche risk levels.</p>
     </div>
 
 
@@ -66,18 +69,18 @@ Our app leverages advanced AI to provide accurate avalanche forecasts. Here's a 
 
 ## ⛷️ Skiers’ Guide to Snapping Pics for Better Forecasts!
 
-Hey, ski enthusiast! ⛷️ Want to help us make our avalanche forecasts even more accurate? Here’s how you can upload the best photos to keep our predictions on track. Let’s hit the slopes!
+Hey, backcountry enthusiast! ⛷️ Want to help make avalanche forecasts even more accurate? If you see or trigger an avalanche, when everyone is safe, submit a picture of the avalanche on our app. Forecasters rely on pictures of avalanche activity to help determine risk levels.  Here’s how you can upload the best photos.. Your local friendly avalanche center will thank you! Remember to be safe in the backcountry!
 
 <div class="grid-container">
     <div class="grid-item">
         <img src="https://raw.githubusercontent.com/AnaZapataG/avalanche-guard/master/assets/img/image_3390534.png" class="icon" alt="Clear Shots Icon">
-        <h3>Slope-Ready Quality</h3>
-        <p>High-res, well-lit, and focused shots.</p>
+        <h3>Quality Shots</h3>
+        <p>Center and focus on the avalanche.</p>
     </div>
     <div class="grid-item">
         <img src="https://raw.githubusercontent.com/AnaZapataG/avalanche-guard/master/assets/img/goal_1763537.png" class="icon" alt="Snow Conditions Icon">
         <h3>Stay Relevant</h3>
-        <p>Capture avalanches and geotag.</p>
+        <p>Capture avalanche, location, and timestamp.</p>
     </div>
     <div class="grid-item">
         <img src="https://raw.githubusercontent.com/AnaZapataG/avalanche-guard/master/assets/img/trekker_3157959.png" class="icon" alt="Respect Privacy Icon">
@@ -87,7 +90,7 @@ Hey, ski enthusiast! ⛷️ Want to help us make our avalanche forecasts even mo
     <div class="grid-item">
         <img src="https://raw.githubusercontent.com/AnaZapataG/avalanche-guard/master/assets/img/explain_10748552.png" class="icon" alt="Add Notes Icon">
         <h3>Explain and Detail</h3>
-        <p>Describe what you see and add metadata.</p>
+        <p>Describe what you see, if you can.</p>
     </div>
     <div class="grid-item">
         <img src="https://raw.githubusercontent.com/AnaZapataG/avalanche-guard/master/assets/img/picture_14052676.png" class="icon" alt="Formats Icon">
@@ -102,7 +105,7 @@ Hey, ski enthusiast! ⛷️ Want to help us make our avalanche forecasts even mo
     <div class="grid-item">
         <img src="https://raw.githubusercontent.com/AnaZapataG/avalanche-guard/master/assets/img/avalanche_16834789.png" class="icon" alt="Glide Avalanches Icon">
         <h3>Avalanche Awareness</h3>
-        <p>Identify and capture different avalanche types.</p>
+        <p>Prioritize Safety in the Backcountry.</p>
     </div>
     <div class="grid-item">
         <img src="https://raw.githubusercontent.com/AnaZapataG/avalanche-guard/master/assets/img/cpu_16430794.png" class="icon" alt="Transparency Icon">
@@ -113,7 +116,7 @@ Hey, ski enthusiast! ⛷️ Want to help us make our avalanche forecasts even mo
 
 ## Thank You!
 
-Thanks for being part of our ski forecasting community! Your photos help us provide the most accurate and reliable predictions. Now, get out there and capture some epic ski moments! 📷❄️⛷️
+Thanks for being part of our community! Your photos help provide the most accurate and localized forecasts.See an avalanche? Send it our way!! 📷❄️⛷️
 
 <style>
     .grid-container {

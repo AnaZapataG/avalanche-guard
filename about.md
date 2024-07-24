@@ -4,6 +4,8 @@ permalink: /about/
 
 # About
 
+AvalancheGuard was developed as a Capstone project for the Master of Information and Data Science at the School of Information at the University of California, Berkeley. 
+
 ## Our Team
 
 Meet the dedicated team behind our project:
@@ -59,3 +61,17 @@ Meet the dedicated team behind our project:
         color: #333;
     }
 </style>
+
+## Our Advisors
+<div class="team-container">
+    <div class="team-member">
+        <img src="" class="team-photo" alt="Joyce Shen">
+        <h3>Joyce Shen</h3>
+        <p>MIDS Capstone Instructor</p>
+    </div>
+    <div class="team-member">
+        <img src="" class="team-photo" alt="Zona Kostic">
+        <h3>Zona Kostic</h3>
+        <p>MIDS Capstone Instructor</p>
+    </div>
+
