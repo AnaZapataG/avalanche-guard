@@ -9,7 +9,7 @@ We are focusing on the field observation data, complementing the weather and sno
 
 Our dataset, published by Fox et al. from the University of Innsbruck in Austria, provides a robust foundation for avalanche detection research. It comprises 4,095 labeled avalanche images, categorized by type (Glide, Loose, Slab) or marked as No Avalanche. The accompanying paper, dataset, and code are available on GitHub at github.com/j-f-ox/avalanche-detection. This dataset is instrumental in training and validating our models to ensure accurate and reliable avalanche detection.
 
-![Avalanche](_site/assets/img/dataset.png)
+![Avalanche](https://raw.githubusercontent.com/AnaZapataG/avalanche-guard/master/assets/img/dataset.png)
 ### Types of Avalanches
 - **Glide**: Slow-moving slides along the ground, often characterized by a visible glide crack.
 - **Loose**: Areas where loose, unconsolidated snow is sliding down the slope, typically starting at a point and fanning out.
@@ -36,7 +36,7 @@ Three Cascaded Models successively take an input picture uploaded by a snow enth
 that don’t feature an avalanche. Third, Classify a valid picture of an avalanche 
 into an avalanche type: glide, loose, or slab. 
 
-![Avalanche](_site/assets/img/model_arch.png)
+![Avalanche](https://raw.githubusercontent.com/AnaZapataG/avalanche-guard/master/assets/img/model_arch.png)
 
 
 ## Overview
@@ -50,21 +50,21 @@ Cleaning data, preprocessing, class balancing, fine-tuning layer params were als
 
 ## Filtering Models
 
-![Avalanche](_site/assets/img/model_1.png)
+![Avalanche](https://raw.githubusercontent.com/AnaZapataG/avalanche-guard/master/assets/img/model_1.png)
 
 ## Classification Model
 
-![Avalanche](_site/assets/img/model_2.png)
+![Avalanche](https://raw.githubusercontent.com/AnaZapataG/avalanche-guard/master/assets/img/model_2.png)
 
 ## Model Evaluation
 
 Models were evaluated using a combination of metrics and analysis tools.
 Accuracy was used for model training because the type of misclassification is not important. 
-![Avalanche](_site/assets/img/evaluation.png)
+![Avalanche](https://raw.githubusercontent.com/AnaZapataG/avalanche-guard/master/assets/img/evaluation.png)
 
 ## Aplication Architecture
 
-![Avalanche](_site/assets/img/app_arch.png)
+![Avalanche](https://raw.githubusercontent.com/AnaZapataG/avalanche-guard/master/assets/img/app_arch.png)
 
 
 
@@ -75,7 +75,7 @@ Accuracy was used for model training because the type of misclassification is no
 - Feature extraction, CNN-based, and Transformer-based models all have different advantages. CNN based EfficientNet finetuning ended up working well for our use case b/c of complexity & dataset size.
 
 
-![Avalanche](_site/assets/img/takeaways.png)
+![Avalanche](https://raw.githubusercontent.com/AnaZapataG/avalanche-guard/master/assets/img/takeaways.png)
 
 ## Key Contributions
 

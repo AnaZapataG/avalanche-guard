@@ -32,6 +32,9 @@ Our app enables easy avalanche observation logging by the general public. It the
         <p>Summarize avalanche observations for forecasters to consider when determining avalanche risk levels.</p>
     </div>
 
+<a href="https://app.avalancheguard.org" class="try-button-link">
+    <button class="try-button">Try AvalancheGuard</button>
+</a>
 
 </div>
 
@@ -65,23 +68,6 @@ Our app enables easy avalanche observation logging by the general public. It the
     }
 </style>
 
-## Use our App
-<div class="container">
-    <div class="content">
-        <p>
-We aim to improve safety in the mountains by crowdsourcing avalanche observations and accurately labeling them with machine learning. This process enables avalanche forecasters to obtain the volume of field data they need to complement their weather and snow pit data, ultimately providing the public with more accurate and precise avalanche risk forecasts.
-        </p>
-<a href="https://app.avalancheguard.org" class="try-button-link">
-    <button class="try-button">Try AvalancheGuard</button>
-</a>
-    </div>
-    <div class="demo">
-        <video width="600" controls>
-            <source src="demo-video.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    </div>
-</div>
 
 <style>
 body {
