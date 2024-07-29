@@ -5,114 +5,93 @@ permalink: /our-solution/
 
 We are focusing on the field observation data, complementing the weather and snowpack data that forecasters use to determine avalanche danger levels. We are solving the problems of the limited number of field observations, the quality of field observations, and the precious time spent extracting the most relevant information.
 
-
 ## Dataset
 
 Our dataset, published by Fox et al. from the University of Innsbruck in Austria, provides a robust foundation for avalanche detection research. It comprises 4,095 labeled avalanche images, categorized by type (Glide, Loose, Slab) or marked as No Avalanche. The accompanying paper, dataset, and code are available on GitHub at github.com/j-f-ox/avalanche-detection. This dataset is instrumental in training and validating our models to ensure accurate and reliable avalanche detection.
 
-## Pre-Processing
-
-To prepare the data for analysis, we perform several pre-processing steps to enhance the quality and relevance of the data.
-
-### Steps:
-1. **Cleaning**: Remove irrelevant or incorrect data.
-2. **Normalization**: Standardize data formats and units.
-3. **Transformation**: Convert data into a usable format for our models.
-
-## Models
-
-We utilize state-of-the-art models to analyze the data and predict avalanche risks. Our models are trained on extensive datasets to ensure accuracy and reliability.
-
-### Models Used:
-- **Convolutional Neural Networks (CNN)**: For terrain classification and avalanche detection. 
-- **EfficientNetV2S**: For classification tasks.
-
-# Model Architecture
-
-## Overview
-
-Our solution involves a multi-stage pipeline with four models, each designed for specific tasks in the process of avalanche detection and classification.
-
-## Model 1: Binary Classification - Snowy Mountains
-The first model identifies if the uploaded image is that of a snowy mountain or not.
-
-### Objective
-- Identify if the uploaded image is that of a snowy mountain.
-
-### Purpose
-- Prevent junk or unwanted images from being uploaded to our application by the public.
-- Delete the uploaded image if it is not detected as a snowy mountain image.
-
-### Results
-- **Accepted Images**: Snowy mountain images are accepted.
-- **Rejected Images**: Images of non-mountain terrains, people, sunsets, and other irrelevant content are rejected.
-
-## Model 2: Binary Classification - Avalanche Presence
-The second model checks if there is an avalanche present in the snowy mountain images.
-
-### Objective
-- Determine the presence of an avalanche in the snowy mountain images.
-
-### Purpose
-- Identify images that have avalanches to proceed to the next stage of analysis.
-
-### Results
-- **Accepted Images**: Images with visible avalanches are accepted.
-- **Rejected Images**: Images without avalanches are rejected.
-
-## Model 3: Multi-class Classification - Avalanche Type
-The final model classifies the type of avalanche present in the segmented image.
-
-### Objective
-- Classify the type of avalanche as Glide, Loose, or Slab.
-
-### Purpose
-- Provide detailed information about the type of avalanche to improve prediction and response measures.
-
+![Avalanche](_site/assets/img/dataset.png)
 ### Types of Avalanches
 - **Glide**: Slow-moving slides along the ground, often characterized by a visible glide crack.
 - **Loose**: Areas where loose, unconsolidated snow is sliding down the slope, typically starting at a point and fanning out.
 - **Slab**: Large, cohesive slabs of snow that have broken away, seen as a distinct, clean break in the snowpack.
 
-## Visual Representation
 
-## Evaluation
+## Data Pre-Processing
 
-We rigorously evaluate our models to ensure they provide accurate and reliable predictions. We use various metrics to measure performance and identify areas for improvement.
+To prepare the data for analysis, we perform several pre-processing steps to enhance the quality and relevance of the data.
 
-### Evaluation Metrics:
-- **Accuracy**: Proportion of correct predictions.
-- **Precision**: Correct positive predictions.
-- **Recall**: Ability to detect all positive cases.
-- **F1 Score**: Balance between precision and recall.
+## Preprocessing Steps
 
-## What We Learned
+To enhance the accuracy and reliability of our avalanche image dataset, we implemented several preprocessing steps:
 
-Snow is hard!
+- Crop close-up of avalanches from original wide-angle pictures. 
+- Resize all images to 224x224, maintaining consistency w/ many computer vision foundation 
+- models.
+Balance Classes, undersampling the majority class.
 
-## Contributions
+# Models
 
-Our work contributes to the field of Avalanche forecasting....
+## Model Architecture
+Three Cascaded Models successively take an input picture uploaded by a snow enthusiast and first filter out any pictures that are not a snowy mountain. Second, Filter out any pictures 
+that don’t feature an avalanche. Third, Classify a valid picture of an avalanche 
+into an avalanche type: glide, loose, or slab. 
+
+![Avalanche](_site/assets/img/model_arch.png)
+
+
+## Overview
+
+Our solution involves a multi-stage pipeline with three models, each designed for specific tasks in the process of avalanche detection and classification. All 3 models are fine-tuned on EfficientNetV2S. Differences in task complexity and nature (binary vs multi-class) drive differences in fine-tuning layers and parameters.
+
+We landed on EfficientNetV2S fine-tuning, leveraging a common image classification transfer learning approach for our moderate dataset size. 
+Feature extraction of colors and texture was insufficient due to image complexity 
+Transformer-based approaches are state-of-the-art but difficult b/c of our small dataset
+Cleaning data, preprocessing, class balancing, fine-tuning layer params were also all tuned
+
+## Filtering Models
+
+![Avalanche](_site/assets/img/model_1.png)
+
+## Classification Model
+
+![Avalanche](_site/assets/img/model_2.png)
+
+## Model Evaluation
+
+Models were evaluated using a combination of metrics and analysis tools.
+Accuracy was used for model training because the type of misclassification is not important. 
+![Avalanche](_site/assets/img/evaluation.png)
+
+## Aplication Architecture
+
+![Avalanche](_site/assets/img/app_arch.png)
+
+
+
+## Key Learnings
+
+- **Snow is complex!** Models that work well on objects that are colorful or have clear boundaries or textures don’t work as well on snow. Avalanche paths don’t have clear boundaries. They can look similar to lighting variations or other types of disturbed snow like skier tracks. Patches of dirt, rock, groups of trees can also all look very similar so that the patch of dirt that gets detected w/ a glide avalanche can easily cause false positives in pictures of rocky mountains. 
+- Cascaded Models are modular, future-proof, reduce complexity, improve explainability. The architecture will allow us to add filtering models or a segmentation model for example in the future. 
+- Feature extraction, CNN-based, and Transformer-based models all have different advantages. CNN based EfficientNet finetuning ended up working well for our use case b/c of complexity & dataset size.
+
+
+![Avalanche](_site/assets/img/takeaways.png)
+
+## Key Contributions
+
+- **Avalanche Detection**: With AvalancheGuard, we are able to automatically detect three types of snow avalanches.
+
+- **EfficientNetV2S Model for Avalanche Detection**: With AvalancheGuard, we explored EfficientNetV2S, an architecture not currently explored for avalanche detection.
+
+- **Detection Application for Crowdsourced Images**: With AvalancheGuard, we provide the community with a ready-to-use, easy, and fast application for avalanche detection.
 
 ## Future Work
 
-We plan to enhance our solution by incorporating additional data sources, improving model accuracy, and expanding the geographical areas covered.
+- Enhancing the reach of our model by including a segmentation model capable of recognizing avalanches from far distances. Inclusing the exploration of, for example, interactive segmentation. 
 
-### Future Enhancements:
+- Improving the accuracy of our detection using crowdsourced images. This will enable us to cover more regions around the world.
 
 
-### Special Thanks
 
-We would like to extend a special thanks to everyone who has advised us and provided feedback throughout our capstone project. In particular, interviews with backcountry experts, avalanche researchers and enthusiasts both were critical to develop our product MVP and vision. 
 
-David Reichel, Executive Director at the Sierra Avalanche Center, for providing guidance, extensive feedback, and data to test our models. 
-
-Richard Bothwell, former Executive Director of AIARE (American Institute of Avalanche Research and Education), and current CFO (Chief Fun Officer), Owner and Lead Guide, Avalanche Educator at Outdoor Adventure Club for providing guidance, feedback, and an introduction to avalanche safety. 
-
-Jeffrey C, forecaster, for invaluable feedback and “day-in-the-life” explanations of a forecaster’s process. 
-
-David, Arnaud, Zara, backcountry skiers & friends who shared their experiences in the backcountry, their interactions with avalanche forecasts, their barriers to submitting observations, and wishes for an awesome reporting product. 
-
-Jaeyoung Lim from the Autonomous Avalanche Detection and Mapping
- At The Autonomous Systems Lab (ASL) at ETH Zurich and Elisabeth Hafner at the WSL Institute for Snow and Avalanche Research SLF who share invaluable insights into their  avalanche research in Switzerland. 
 

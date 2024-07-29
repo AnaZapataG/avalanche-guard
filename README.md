@@ -35,8 +35,6 @@ Our app enables easy avalanche observation logging by the general public. It the
 
 </div>
 
-
-
 <style>
     .grid-container {
         display: grid;
@@ -66,6 +64,85 @@ Our app enables easy avalanche observation logging by the general public. It the
         font-size: 1em;
     }
 </style>
+
+## Use our App
+<div class="container">
+    <div class="content">
+        <p>
+We aim to improve safety in the mountains by crowdsourcing avalanche observations and accurately labeling them with machine learning. This process enables avalanche forecasters to obtain the volume of field data they need to complement their weather and snow pit data, ultimately providing the public with more accurate and precise avalanche risk forecasts.
+        </p>
+<a href="https://app.avalancheguard.org" class="try-button-link">
+    <button class="try-button">Try AvalancheGuard</button>
+</a>
+    </div>
+    <div class="demo">
+        <video width="600" controls>
+            <source src="demo-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</div>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.demo {
+    flex: 1;
+}
+
+h1 {
+    font-size: 2em;
+    color: #2c3e50;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.6em;
+    margin: 1em 0;
+}
+
+.try-button {
+    background-color: #0277bd;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.try-button:hover {
+    background-color: #2ecc71;
+}
+
+video {
+    width: 100%;
+    border: 2px solid #2c3e50;
+    border-radius: 10px;
+}
+</style>
+
 
 ## ⛷️ Skiers’ Guide to Snapping Pics for Better Forecasts!
 

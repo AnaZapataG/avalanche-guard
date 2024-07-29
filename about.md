@@ -4,7 +4,7 @@ permalink: /about/
 
 # About
 
-AvalancheGuard was developed as a Capstone project for the Master of Information and Data Science at the School of Information at the University of California, Berkeley. 
+AvalancheGuard was developed as a Capstone project for the Master of Information and Data Science at the School of Information, University of California, Berkeley. We worked under the guidance of our advisors, Joyce Shen and Zona Kostic.
 
 ## Our Team
 
@@ -62,16 +62,18 @@ Meet the dedicated team behind our project:
     }
 </style>
 
-## Our Advisors
-<div class="team-container">
-    <div class="team-member">
-        <img src="" class="team-photo" alt="Joyce Shen">
-        <h3>Joyce Shen</h3>
-        <p>MIDS Capstone Instructor</p>
-    </div>
-    <div class="team-member">
-        <img src="" class="team-photo" alt="Zona Kostic">
-        <h3>Zona Kostic</h3>
-        <p>MIDS Capstone Instructor</p>
-    </div>
 
+## Special Thanks
+
+We would like to extend a special thanks to everyone who has advised us and provided feedback throughout our capstone project. In particular, interviews with backcountry experts, avalanche researchers and enthusiasts both were critical to develop our product MVP and vision. 
+
+David Reichel, Executive Director at the Sierra Avalanche Center, for providing guidance, extensive feedback, and data to test our models. 
+
+Richard Bothwell, former Executive Director of AIARE (American Institute of Avalanche Research and Education), and current CFO (Chief Fun Officer), Owner and Lead Guide, Avalanche Educator at Outdoor Adventure Club for providing guidance, feedback, and an introduction to avalanche safety. 
+
+Jeffrey C, forecaster, for invaluable feedback and “day-in-the-life” explanations of a forecaster’s process. 
+
+David, Arnaud, Zara, backcountry skiers & friends who shared their experiences in the backcountry, their interactions with avalanche forecasts, their barriers to submitting observations, and wishes for an awesome reporting product. 
+
+Jaeyoung Lim from the Autonomous Avalanche Detection and Mapping
+ At The Autonomous Systems Lab (ASL) at ETH Zurich and Elisabeth Hafner at the WSL Institute for Snow and Avalanche Research SLF who share invaluable insights into their  avalanche research in Switzerland. 
