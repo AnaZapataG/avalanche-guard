@@ -69,53 +69,6 @@ Our app enables easy avalanche observation logging by the general public. It the
 </style>
 
 
-<style>
-body {
-    font-family: Arial, sans-serif;
-    color: #333;
-    margin: 0;
-}
-
-
-
-.content {
-    flex: 1;
-    margin-right: 20px;
-}
-
-.demo {
-    flex: 1;
-}
-
-h1 {
-    font-size: 2em;
-    color: #2c3e50;
-}
-
-p {
-    font-size: 1em;
-    line-height: 1.6em;
-    margin: 1em 0;
-}
-
-.try-button {
-    background-color: #0277bd;
-    color: white;
-    padding: 10px 20px;
-    font-size: 1em;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    text-transform: uppercase;
-    margin-top: 20px;
-}
-
-.try-button:hover {
-    background-color: #2ecc71;
-}
-
-</style>
-
 
 ## ⛷️ Skiers’ Guide to Snapping Pics for Better Forecasts!
 
