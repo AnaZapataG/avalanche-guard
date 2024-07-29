@@ -72,19 +72,11 @@ Our app enables easy avalanche observation logging by the general public. It the
 <style>
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
     color: #333;
     margin: 0;
-    padding: 20px;
 }
 
-.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    max-width: 1200px;
-    margin: 0 auto;
-}
+
 
 .content {
     flex: 1;
@@ -122,11 +114,6 @@ p {
     background-color: #2ecc71;
 }
 
-video {
-    width: 100%;
-    border: 2px solid #2c3e50;
-    border-radius: 10px;
-}
 </style>
 
 
