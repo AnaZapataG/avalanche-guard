@@ -36,7 +36,7 @@ Three Cascaded Models successively take an input picture uploaded by a snow enth
 that don’t feature an avalanche. Third, Classify a valid picture of an avalanche 
 into an avalanche type: glide, loose, or slab. 
 
-![Avalanche](https://raw.githubusercontent.com/AnaZapataG/avalanche-guard/master/assets/img/model_arch.png)
+![Avalanche](https://raw.githubusercontent.com/AnaZapataG/avalanche-guard/master/assets/img/cascade_model.png)
 
 
 ## Overview
@@ -50,23 +50,17 @@ Cleaning data, preprocessing, class balancing, fine-tuning layer params were als
 
 ## Filtering Models
 
-![Avalanche](https://raw.githubusercontent.com/AnaZapataG/avalanche-guard/master/assets/img/model_1.png)
+![Avalanche](https://raw.githubusercontent.com/AnaZapataG/avalanche-guard/master/assets/img/filtering_model.png)
 
 ## Classification Model
 
-![Avalanche](https://raw.githubusercontent.com/AnaZapataG/avalanche-guard/master/assets/img/model_2.png)
+![Avalanche](https://raw.githubusercontent.com/AnaZapataG/avalanche-guard/master/assets/img/clasification_model.png)
+
 
 ## Model Evaluation
 
 Models were evaluated using a combination of metrics and analysis tools.
 Accuracy was used for model training because the type of misclassification is not important. 
-![Avalanche](https://raw.githubusercontent.com/AnaZapataG/avalanche-guard/master/assets/img/evaluation.png)
-
-## Aplication Architecture
-
-![Avalanche](https://raw.githubusercontent.com/AnaZapataG/avalanche-guard/master/assets/img/app_arch.png)
-
-
 
 ## Key Learnings
 

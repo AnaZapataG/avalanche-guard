@@ -1,14 +1,10 @@
-
-
 # AvalancheGuard
- 
+
 Avalanche forecasts save lives. They enable those who travel, live, work, or recreate in the backcountry to make informed decisions in snowy mountain environments.
 
 Forecasters rely on weather reports, snowpit data, and avalanche event observations to assess daily avalanche risk. However, forecasters and avalanche center directors agree that more reports on when, where, and what types of avalanches people see are essential. Increased reporting would lead to more accurate, localized avalanche forecasts, enhancing public safety and decision-making for backcountry travelers.
 
 To address this need, we've developed AvalancheGuard, an app that allows recreational skiers, riders, snowmobilers, and anyone traveling through snowy mountains to easily upload pictures of any avalanche activity they see. Our app automatically captions pictures with the avalanche type, simplifying the observation submission process for backcountry travelers. These crowd-sourced observations are summarized on our platform, providing valuable data for forecasters to analyze when developing their avalanche risk forecasts.
-
-
 
 ## How Our App Works
 
@@ -18,8 +14,7 @@ Our app enables easy avalanche observation logging by the general public. It the
     <div class="grid-item">
         <img src="https://raw.githubusercontent.com/AnaZapataG/avalanche-guard/master/assets/img/data_15952761.png" class="icon" alt="Collect Data Icon">
         <h3>Step 1: Data Collection</h3>
-        <p>Crowdsource pictures of avalanches from backcountry travelers (skiers, snowmobilers, etc).
-</p>
+        <p>Crowdsource pictures of avalanches from backcountry travelers (skiers, snowmobilers, etc).</p>
     </div>
     <div class="grid-item">
         <img src="https://raw.githubusercontent.com/AnaZapataG/avalanche-guard/master/assets/img/data-classification_14400033.png" class="icon" alt="Analyze Data Icon">
@@ -31,12 +26,11 @@ Our app enables easy avalanche observation logging by the general public. It the
         <h3>Step 3: Inform forecasts</h3>
         <p>Summarize avalanche observations for forecasters to consider when determining avalanche risk levels.</p>
     </div>
+</div>
 
 <a href="https://app.avalancheguard.org" class="try-button-link">
     <button class="try-button">Try AvalancheGuard</button>
 </a>
-
-</div>
 
 <style>
     .grid-container {
@@ -66,13 +60,29 @@ Our app enables easy avalanche observation logging by the general public. It the
     p {
         font-size: 1em;
     }
+    .try-button-link {
+        text-align: center;
+        margin-top: 20px;
+        display: block;
+    }
+    .try-button {
+        background-color: #0277bd;
+        color: #ffffff;
+        border: none;
+        border-radius: 8px;
+        padding: 15px 30px;
+        font-size: 1.2em;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    .try-button:hover {
+        background-color: #005f8f;
+    }
 </style>
-
-
 
 ## ⛷️ Skiers’ Guide to Snapping Pics for Better Forecasts!
 
-Hey, backcountry enthusiast! ⛷️ Want to help make avalanche forecasts even more accurate? If you see or trigger an avalanche, when everyone is safe, submit a picture of the avalanche on our app. Forecasters rely on pictures of avalanche activity to help determine risk levels.  Here’s how you can upload the best photos.. Your local friendly avalanche center will thank you! Remember to be safe in the backcountry!
+Hey, backcountry enthusiast! ⛷️ Want to help make avalanche forecasts even more accurate? If you see or trigger an avalanche, when everyone is safe, submit a picture of the avalanche on our app. Forecasters rely on pictures of avalanche activity to help determine risk levels. Here’s how you can upload the best photos. Your local friendly avalanche center will thank you! Remember to be safe in the backcountry!
 
 <div class="grid-container">
     <div class="grid-item">
@@ -119,7 +129,7 @@ Hey, backcountry enthusiast! ⛷️ Want to help make avalanche forecasts even m
 
 ## Thank You!
 
-Thanks for being part of our community! Your photos help provide the most accurate and localized forecasts.See an avalanche? Send it our way!! 📷❄️⛷️
+Thanks for being part of our community! Your photos help provide the most accurate and localized forecasts. See an avalanche? Send it our way!! 📷❄️⛷️
 
 <style>
     .grid-container {
@@ -146,12 +156,7 @@ Thanks for being part of our community! Your photos help provide the most accura
         font-size: 1.25em;
         color: #0277bd;
     }
-    ul {
-        list-style: none;
-        padding: 0;
-        text-align: left;
-    }
-    ul li {
-        margin-bottom: 10px;
+    p {
+        font-size: 1em;
     }
 </style>
