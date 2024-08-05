@@ -4,7 +4,10 @@ Avalanche forecasts save lives. They enable those who travel, live, work, or rec
 
 Forecasters rely on weather reports, snowpit data, and avalanche event observations to assess daily avalanche risk. However, forecasters and avalanche center directors agree that more reports on when, where, and what types of avalanches people see are essential. Increased reporting would lead to more accurate, localized avalanche forecasts, enhancing public safety and decision-making for backcountry travelers.
 
-To address this need, we've developed AvalancheGuard, an app that allows recreational skiers, riders, snowmobilers, and anyone traveling through snowy mountains to easily upload pictures of any avalanche activity they see. Our app automatically captions pictures with the avalanche type, simplifying the observation submission process for backcountry travelers. These crowd-sourced observations are summarized on our platform, providing valuable data for forecasters to analyze when developing their avalanche risk forecasts.
+Backcountry travelers say that they currently don’t contribute pictures to existing observation platforms because they are unsure how to caption them. They also don’t realize that their contributions could help keep everyone safe. 
+
+To address this need, we’ve developed AvalancheGuard, an app that allows recreational skiers, riders, snowmobilers, and anyone traveling through snowy mountains to easily upload pictures of any avalanche activity they see. Our app automatically captions pictures with the avalanche type, simplifying the observation submission process for backcountry travelers. These crowd-sourced observations are summarized on our platform, providing valuable data for forecasters to analyze when developing their avalanche risk forecasts.
+
 
 ## How Our App Works
 
