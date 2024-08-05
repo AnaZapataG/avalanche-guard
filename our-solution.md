@@ -36,7 +36,7 @@ To enhance the accuracy and reliability of our avalanche image dataset, we imple
 ## Model Architecture
 Three Cascaded Models successively take an input picture uploaded by a snow enthusiast and first filter out any pictures that are not a snowy mountain. Second, Filter out any pictures that don’t feature an avalanche. Third, Classify a valid picture of an avalanche into an avalanche type: glide, loose, or slab.
 
-![Avalanche](https://raw.githubusercontent.com/AnaZapataG/avalanche-guard/master/assets/img/cascade_model.png)
+![Avalanche](https://raw.githubusercontent.com/AnaZapataG/avalanche-guard/master/assets/img/cascade.png)
 
 
 ## Overview
@@ -52,7 +52,7 @@ We landed on EfficientNetV2S fine-tuning, leveraging a common image classificati
 
 The binary filtering models achieved high accuracy.
 
-![Avalanche](https://raw.githubusercontent.com/AnaZapataG/avalanche-guard/master/assets/img/filtering_model.png)
+![Avalanche](https://raw.githubusercontent.com/AnaZapataG/avalanche-guard/master/assets/img/filtering.png)
 
 ## Classification Model
 
@@ -70,10 +70,6 @@ We assessed our models using a range of metrics and analytical tools. Accuracy w
 - **Snow is complex!** Models that work well on objects that are colorful or have clear boundaries or textures don’t work as well on snow. Avalanche paths don’t have clear boundaries. They can look similar to lighting variations or other types of disturbed snow like skier tracks. Patches of dirt, rock, groups of trees can also all look very similar so that the patch of dirt that gets detected w/ a glide avalanche can easily cause false positives in pictures of rocky mountains.
 - Cascaded Models are modular, future-proof, reduce complexity, improve explainability. The architecture will allow us to add filtering models or a segmentation model for example in the future.
 - Feature extraction, CNN-based, and Transformer-based models all have different advantages. CNN based EfficientNet finetuning ended up working well for our use case b/c of complexity & dataset size.
-
-
-
-![Avalanche](https://raw.githubusercontent.com/AnaZapataG/avalanche-guard/master/assets/img/takeaways.png)
 
 ## Key Contributions
 
